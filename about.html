@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Christian Z Ashley</title>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+		<link rel="icon" type="image/png" href="pics/favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery-scrollto.js"></script>
+	</head>
+	<body >
+		
+		<div id='menu-wrapper' class='closed'>
+			<header id="header">
+				<div id='header-wrapper'>
+					<!--<div class='nav ' >
+						<div class='button left' onclick='toggleMenu1()'><img height='100%' src='pics/hamburger.png' alt='Menu Toggle'></div>
+					</div>-->
+					<div class='nav name'>
+						<a href='index.html'><h2>Christian Ashley</h2></a><a href='about.html'><p>About</p></a>
+					</div>
+					<div class='nav toggleButton' >
+						<div class='button right' onclick='toggleMenu1()'><img height='100%' src='pics/hamburger.png' alt='Menu Toggle'></div>
+					</div>
+				</div>
+			</header>
+			<div class='category'>
+				<div id='portfolio' class='img-container'>
+					<div class='panel' >
+						<h2>Resume</h2>
+					</div>
+					<div class='panel' >
+						<h2>About</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='carousel-container'>
+			<div id='nav-up' class='carousel-nav' onclick='previousSlide()'><img src='pics/chevron-up.png' alt='Previous Slide'/></div>
+			<div id='nav-down' class='carousel-nav' onclick='nextSlide()'><img src='pics/chevron-down.png' alt='Next Slide'/></div>
+			
+			<div id='scrollbar-fix'>
+				<ul id='img-container'>
+					<li class='slide full-width'>
+						<a target='_blank' href='resume/resume.pdf'><div id='download-button' ><img id='caption-image' src='pics/download.png' alt='Download Resume'></div></a>
+						<iframe width='100%' height='100%' frameborder="0" src='resume/resume.html'></iframe>
+					</li>
+					<li class='slide-about full-width'>
+						<div class='contact-container'>
+						<div id='slider-and-info' class='panel-about'>
+							<div id='info'>
+								<!--<h1>Please hire me I need a job!</h1>
+								<hr>
+								<p>My name is Christian Ashley. I'm a soon-to-be college graduate hoping to not be unemployed.
+								Here is a selection of my work.
+								</p>-->
+								<h1>Say Hi!</h1>
+								<hr>
+								<p>
+								email: ashleycz1993@gmail.com
+								<br/>
+								phone: 1-315-323-1914
+								</p>
+								<div>
+									<img src='pics/sprite-transparent.gif' alt='Sprite Gif'/>
+									<div class='caption hidden'></div>
+								</div>
+							</div>
+							<div id='Bio'>
+								<h1>Bio</h1>
+								<hr>
+								<p>Christian Z. Ashley is a digital artist from Upstate New York (born in 1993). He has a particular affinity for character design and animation as well as the multitude of ways people create characters out of themselves both on- and offline. He uses modes such as Photoshop for traditional design and screen-capture for recording digital interaction. Christian is currently a student at Clarkson University in Potsdam New York and will be graduating with his BS in Digital Arts & Sciences in December 2016.</p>
+							</div>
+							<div id='Statement'>
+								<h1>Artist Statement</h1>
+								<hr>
+								<p>A major goal of my work is to experiment with various forms that  best convey a story or message. More specifically I am interested in  the methods which structure the interpretation of a character&#39;s role in a given narrative. I enjoy visually constructing a model and imagining the ways the character might move and behave. Every visual style, from the drawings of Andrew Loomis to Adventure Time, inherits a unique tone which dictates what we expect out of a piece. Conceptually, I use a broader definition of characters and attempt to exploit our perceptions using the redefinition. By treating less traditional personifications as characters, such as social media profiles, I am interested in examining how we view characters against the burgeoning backdrop of Internet and the tools at our disposal to tell messages or stories in new and interesting ways. 
+								Currently,  I have a particular interest in Internet Meme culture and the constructedness of net celebrities and personalities  with their methods for retaining audience engagement.  While modern Internet advertising practices (e.g intrusive video ads) focus more on increasingly modular and vapid ways to market new material, it&#39;s refreshing to see commitment to a newly established continuity. I aim to explore the &quot;default state&quot; of an online persona and the opportunities and limitations afforded to that persona. That is to say I enjoy analysing the state of a social media account before the user has established themselves  into their account persona.  Through future works, I hope to continue to investigate and redefine character development in a digital space.
+								</p>
+							</div>
+						</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="js/myScript.js"></script>
+</html>

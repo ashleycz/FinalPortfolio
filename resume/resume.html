@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+	<title>Resume</title>
+	<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<style type='text/css'>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 1em;
+		}
+		
+		*:not(h1):not(h2):not(h3):not(i){
+			font-weight: 700;
+		}
+		
+		html{
+			min-width: 500px;
+		}
+		
+		body{
+			position: relative;
+		}
+		
+		#body-container{
+			width: 95%;
+			margin: 0 auto;
+		}
+		
+		#background-image{
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			opacity: 0.1;
+			background: url('CaricatureFull.png');
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+		}
+		
+		h1{
+			font-family: 'Yatra One', sans-serif;
+			font-size: 2.25em;
+		}
+		
+		h2{
+			margin-top: 15px;
+			font-size: 1.75em;
+		}
+		
+		#contact-info{
+			margin-top: -5px;
+		}
+		
+		#contact-info, .name-and-date{
+			position: relative;
+			height: 36px;
+		}
+		
+		#address, #contact, .name, .date{
+			font-size: 1.25em;
+			position: absolute;
+			top: 0;
+		}
+		
+		#address, .name{
+			left: 0;
+		}
+		
+		#contact, .date{
+			right: 0;
+			text-align: right;
+		}
+		
+		#proficiencies{
+			margin: 5px;
+			display: flex;
+			flex-flow: row wrap;
+			max-width: 640px;
+		}
+		
+		#proficiencies > * {
+			flex: 1 auto;
+			width: 150px;
+		}
+		
+		#proficiencies ul {
+			list-style-type: none;
+		}
+		
+		.experience{
+			margin-top: 10px;
+		}
+		
+		.features {
+			margin-left: 36px;
+			margin-top: -10px;
+		}
+		
+		@media(max-width: 800px){		
+			.name-and-date{
+				position: relative;
+				height: 36px;
+			}
+			
+			.name, .date{
+				position: relative;
+				top: 0;
+			}
+			
+			.name{
+				left: 0;
+			}
+			
+			.date{
+				text-align: left;
+			}
+			
+			.features {
+				margin-left: 36px;
+				margin-top: 10px;
+			}
+		}
+			
+		@media print{
+			
+			h2{
+				margin-top: 10px;
+			}
+			
+			#contact-info, .name-and-date{
+				position: relative;
+				height: 36px;
+			}
+			
+			#address, #contact{
+				font-size: 1em;
+				position: absolute;
+				top: 0;
+			}
+			
+			#address, .name{
+				left: 0;
+			}
+			
+			#contact, .date{
+				right: 0;
+				text-align: right;
+			}
+			
+			.experience{
+				margin-top: 10px;
+			}
+			
+			.date{
+				margin-top: -25px;
+			}
+			
+			.features{
+				margin-left: 36px;
+				margin-top: -10px;
+			}
+			
+			.features, #proficiencies div li{
+				font-size: .9em;
+			}
+		}
+		}		
+	</style>
+	</head>
+	<body>
+		<div id='background-image'></div>
+		<div id='body-container'>
+			<header>
+				<h1>Christian Z. Ashley</h1>
+				<div id='contact-info'>
+					<div id='address'>511 Montgomery St. <br> Ogdensburg, New York 13669</div>
+					<div id='contact'><a>ashleycz1993@gmail.com</a> <br> tel: (315)323-1914</div>
+				</div>
+			</header>
+			<main>
+				<h2>Projects</h2>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>My Portfolio Site</h3><h3 class='date'>Current</h3></div>
+						<ul class='features'>
+							<li>Responsive HTML5 and CSS3 with Javascript</li>
+							<li>Personal content management</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'><i>Meme en Abyme</i> Video</h3><h3 class='date'>Spring 2016</h3></div>
+						<ul class='features'>
+							<li>Using After Effects for various editing effects (eg subtitling, chroma key, etc)</li>
+							<li>Use of OBS for efficient high resolution screen capture</li>
+							<li>Self-motivated design process</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'><i>Kadarune</i> Tabletop Game</h3><h3 class='date'>Spring 2016</h3></div>
+						<ul class='features'>
+							<li>Team-oriented design process working with principles of game design</li>
+							<li>Use of tables to create various items/weapons for a level progression</li>
+							<li>Created original illustrations, edited page layouts, and published book</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'><i>Phi_(D:)0</i> Redesign</h3><h3 class='date'>Fall 2014</h3></div>
+						<ul class='features'>
+							<li>Fully utilizing Maya/Mudbox for digital storytelling and production</li>
+							<li>More fluid body rig including splines and new expressive facial rig</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'><i>Digital Painting</i> Independent Study</h3><h3 class='date'>Fall 2013</h3></div>
+						<ul class='features'>
+							<li>Utilized full range of Photoshop tools to create aesthetically interesting work</li>
+							<li>Experimentation with brush creation for different texturing effects</li>
+							<li>Learned principles of basic character and creature design</li>
+							<li>Self-motivated design process</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'><i>Phi_(D:)0</i> Quadruped Rig and Model</h3><h3 class='date'>Spring 2013</h3></div>
+						<ul class='features'>
+							<li>Learned about the Maya modeling and rigging processes</li>
+							<li>Worked with efficient workflow and modelling process (i.e. low-poly count)</li>
+							<li>Full character design from concept to completion</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'><i>This is Not a Tree</i> Short Animation</h3><h3 class='date'>Fall 2012</h3></div>
+						<ul class='features'>
+							<li>Learned proficiency of the Maya modeling and animation interface</li>
+							<li>Incorporated and conveyed visual goals to create certain aesthetics</li>
+						</ul>
+					</div>
+					<h2>Technical Proficiency</h2>
+					<!--<p>Adobe AfterEffects, Adobe Photoshop, Adobe Illustrator, Canvas, CSS3, XHTML, HTML5,  Javascript/jQuery, Maya, MS Excel, MS PowerPoint, MS Word, Mudbox, WebGL</p>-->
+					<div id='proficiencies'>
+						<div><ul>
+							<li>Adobe AfterEffects</li>
+							<li>Adobe Photoshop</li>
+							<li>Adobe Illustrator</li>
+						</ul></div>
+						<div><ul>
+							<li>Canvas</li>
+							<li>CSS3</li>
+							<li>XHTML/HTML5</li>
+							<li>Javascript/jQuery</li>
+							<li>WebGL</li>
+						</ul></div>
+						<div><ul>
+							<li>Maya</li>
+							<li>Mudbox</li>
+						</ul></div>
+						<div><ul>
+							<li>MS Excel</li>
+							<li>MS PowerPoint</li>
+							<li>MS Word</li>
+						</ul></div>
+					</div>
+				<h2>Education</h2>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>Clarkson University - Potsdam, New York</h3><h3 class='date'>Expected Graduation December 2016</h3></div>
+						<ul class='features'>
+							<li>Bachelor of Science in Digital Arts and Sciences &ndash; GPA: 3.385</li>
+							<li>Dean&#8217;s List</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>The Clarkson School - Potsdam, New York</h3><h3 class='date'>2011-2012</h3></div>
+						<ul class='features'>
+							<li>Dean&#8217;s List</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>Ogdensburg Free Academy - Ogdensburg, New York</h3><h3 class='date'>2008-2011</h3></div>
+						<ul class='features'>
+							<li>Advanced Regents Diploma with Honors</li>
+							<li>GPA: 94</li>
+							<li>National Honor Society</li>
+						</ul>
+					</div>
+				<h2>Employment</h2>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>Computer Lab Monitor &ndash; Clarkson University</h3><h3 class='date'>Insert Date Here</h3></div>
+						<ul class='features'>
+							<li>Offered technical and general assistance to users</li>
+							<li>Kept lab clean and stored any forgotten items for retrieval</li>
+							<li>Monitored logistics of people using lab</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>ACCO Brands &ndash; Ogdensburg Division</h3><h3 class='date'>June-July 2014</h3></div>
+						<ul class='features'>
+							<li>Required good communication and teamwork to effectively move product</li>
+							<li>General cleanliness and maintenance</li>
+						</ul>
+					</div>
+					<div class='experience'>
+						<div class='name-and-date'><h3 class='name'>Ogdensburg Walmart &ndash; Electronics Associate</h3><h3 class='date'> May-Sept 2014</h3></div>
+						<ul class='features'>
+							<li>Good customer service, required knowledge of electronics to best serve customer needs</li>
+							<li>Kept work area clean and maintained</li>
+						</ul>
+					</div>
+			</main>
+		</div>
+	</body>
+</html>

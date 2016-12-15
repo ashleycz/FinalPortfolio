@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Christian Z Ashley</title>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+		<link rel="icon" type="image/png" href="pics/favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery-scrollto.js"></script>
+	</head>
+	<body >
+		
+		<div id='menu-wrapper' class='closed'>
+			<header id="header">
+				<div id='header-wrapper'>
+					<!--<div class='nav ' >
+						<div class='button left' onclick='toggleMenu1()'><img height='100%' src='pics/hamburger.png' alt='Menu Toggle'></div>
+					</div>-->
+					<div class='nav name'>
+						<h2>Christian Ashley</h2><a href='about.html'><p>About</p></a>
+					</div>
+					<div class='nav' >
+						<div class='button right' onclick='toggleMenu1()'><img height='100%' src='pics/hamburger.png' alt='Menu Toggle'></div>
+					</div>
+				</div>
+			</header>
+			<div class='category'>
+				<h2>Portfolio</h2>
+				<div id='portfolio' class='img-container'>
+					<div class='panel drawing' >
+						<img src='pics/sketch01thumb.png' alt='Sketch 01 Thumb' />
+					</div>
+					<div class='panel painting' >
+						<img src='pics/sketch02thumb.png' alt='Sketch 02 Thumb' />
+					</div>
+					<div class='panel drawing' >
+						<img src='pics/sketch03thumb.png' alt='Sketch 03 Thumb' />
+					</div>
+					<div class='panel wide drawing'>
+						<img src='pics/sketch04thumb.png' alt='Sketch 04 Thumb' />
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch05thumb.png' alt='Sketch 05 Thumb'/>
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch07thumb.png' alt='Sketch 07 Thumb'/>
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch08thumb.png' alt='Sketch 08 Thumb'/>
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch09thumb.png' alt='Sketch 09 Thumb'/>
+					</div>
+					<div class='panel wide drawing'>
+						<img src='pics/sketch10thumb.png' alt='Sketch 10 Thumb'/>
+					</div>
+					<div class='panel wide drawing'>
+						<img src='pics/sketch11thumb.png' alt='Sketch 11 Thumb'/>
+					</div>
+					<div class='panel wide drawing'>
+						<img src='pics/sketch12thumb.png' alt='Sketch 12 Thumb'/>
+					</div>
+					<div class='panel wide painting'>
+						<img src='pics/sketch18thumb.png' alt='Sketch 18 Thumb'/>
+					</div>
+					<div class='panel painting'>
+						<img src='pics/sketch19thumb.png' alt='Sketch 19 Thumb'/>
+					</div>
+					<div class='panel wide painting'>
+						<img src='pics/sketch20thumb.png' alt='Sketch 20 Thumb'/>
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch22thumb.png' alt='Sketch 22 Thumb'/>
+					</div>
+					<div class='panel wide drawing'>
+						<img src='pics/sketch23thumb.png' alt='Sketch 23 Thumb'/>
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch24thumb.png' alt='Sketch 24 Thumb'/>
+					</div>
+					<div class='panel wide painting'>
+						<img src='pics/sketch25thumb.png' alt='Sketch 25 Thumb'/>
+					</div>
+					<div class='panel drawing'>
+						<img src='pics/sketch26thumb.png' alt='Sketch 26 Thumb'/>
+					</div>
+					<div class='panel gif'>
+						<img src='pics/sprite.gif' alt='Sprite Gif'/>
+					</div>
+				</div>
+			</div>
+			</div>	
+		</div>
+		<div class='carousel-container'>
+			<div id='nav-up' class='carousel-nav' onclick='previousSlide()'><img src='pics/chevron-up.png' alt='Previous Slide'/></div>
+			<div id='nav-down' class='carousel-nav' onclick='nextSlide()'><img src='pics/chevron-down.png' alt='Next Slide'/></div>
+			<div id='caption-button' onclick="toggleCaption()"><img id='caption-image' src='pics/toggleIconOff.png' alt='Toggle Caption'></div>
+			<div id='scrollbar-fix'>
+				<ul id='img-container'>
+						<li class='slide full-width'>
+							<img src='pics/sketch01thumb.png' alt='Sketch 01 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>9-30-2015 Digital Drawing</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch02thumb.png' alt='Sketch 02 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>9-13-2016 Digital Painting Self Portrait</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch03thumb.png' alt='Sketch 03 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>11-9-2015 Digital Drawing</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch04thumb.png' alt='Sketch 04 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Dog Character Experssions</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch05thumb.png' alt='Sketch 05 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>August 2016 Character WIP</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch07thumb.png' alt='Sketch 07 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Face Study 1</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch08thumb.png' alt='Sketch 08 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Face Study 2</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch09thumb.png' alt='Sketch 09 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Face Study 3</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch10thumb.png' alt='Sketch 10 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Caricatures</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch11thumb.png' alt='Sketch 11 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Face Study 4</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch12thumb.png' alt='Sketch 12 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Dog Expressions 2</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch18thumb.png' alt='Sketch 18 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Dog Colors</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch19thumb.png' alt='Sketch 19 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Value Study Digital Painting</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch20thumb.png' alt='Sketch 20 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Elf Face Study</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch22thumb.png' alt='Sketch 22 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Swingin' Woman</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch23thumb.png' alt='Sketch 23 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>TERA Fan Character</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch24thumb.png' alt='Sketch 24 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Face Study 5</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch25thumb.png' alt='Sketch 25 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Toon Character Study</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sketch26thumb.png' alt='Sketch 26 Thumb'/>
+							<div class="caption-container caption-closed">
+								<p>Fantasy Costume Design</p>
+							</div>
+						</li>
+						<li class='slide full-width'>
+							<img src='pics/sprite.gif' alt='Animated Sprite'/>
+							<div class="caption-container caption-closed">
+								<p>Animated Sprite Face Study</p>
+							</div>
+						</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="js/myScript.js"></script>
+</html>
